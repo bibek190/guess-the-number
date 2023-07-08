@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  padding: 2rem 5rem;
+  background: darkgrey;
+  flex-direction: column;
+  gap: 1rem;
+}
+.wrapper .guess-box {
+  gap: 4rem;
+  font-size: 7rem;
+  width: 70vw;
+}
+.guess-box button {
+  font-size: 2rem;
+  padding: 15px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.guess-box button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 5px 2px black;
+  background: lightblue;
+}
+.guess-box input {
+  font-size: 5rem;
+  width: 10rem;
+  text-align: center;
+  border-radius: 50%;
+}
+.box {
+  width: 70vw;
+  height: 50vh;
+  margin-top: 3rem;
+  border-radius: 10px;
+}
+.left {
+  width: 50%;
+  background: black;
+  color: white;
+  height: 100%;
+  flex-direction: column;
+  border-radius: 0 10px 10px 0;
+}
+.right {
+  width: 50%;
+  height: 100%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0 1rem;
+  justify-content: center;
+  border-radius: 10px 0 0 10px;
+}
+.right h2 {
+  display: flex;
+  gap: 2rem;
+  font-size: 2rem;
+  align-items: baseline;
+}
+.right span {
+  color: rgb(5, 22, 182);
+  font-size: 3rem;
+}
+
+hr {
+  width: 70%;
+  margin: 1rem;
+}
