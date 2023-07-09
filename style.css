@@ -42,11 +42,18 @@
   text-align: center;
   border-radius: 50%;
 }
+.guess-box i {
+  position: relative;
+  z-index: 2;
+}
 .box {
   width: 70vw;
   height: 50vh;
   margin-top: 3rem;
   border-radius: 10px;
+}
+.play-again {
+  width: 50%;
 }
 .left {
   width: 50%;
